@@ -64,7 +64,7 @@ def setup_package():
         build_requires += ['matplotlib>=2.0.0']
 
     metadata = dict(
-        name='scm',
+        name='SeisCM',
         maintainer="Lijun Zhu",
         version=VERSION,
         maintainer_email="gatechzhu@gmail.com",
