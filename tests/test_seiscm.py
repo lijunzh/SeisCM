@@ -1,6 +1,6 @@
 import pytest
 
-from scm import bwr
+from seiscm import bwr
 from matplotlib.colors import LinearSegmentedColormap
 
 
