@@ -1,5 +1,6 @@
 # Seismic ColorMap
 
+[![PyPI version](https://badge.fury.io/py/SeisCM.svg)](https://badge.fury.io/py/SeisCM)
 [![Build Status](https://travis-ci.org/gatechzhu/SeisCM.svg?branch=master)](https://travis-ci.org/gatechzhu/SeisCM)
 
 ## Introduction
