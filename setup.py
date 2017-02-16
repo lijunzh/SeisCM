@@ -32,12 +32,10 @@ Operating System :: MacOS
 
 MAJOR = 0
 MINOR = 1
-MICRO = 0
+MICRO = 1
 ISRELEASED = False
 # VERSION = '{}.{}.{}'.format(MAJOR, MINOR, MICRO)
 VERSION = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
-
-# VERSION = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
 
 def setup_package():
     # Figure out whether to add ``*_requires = ['numpy']``.
