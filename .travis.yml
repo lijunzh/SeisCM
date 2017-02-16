@@ -1,9 +1,9 @@
 language: python
 python:
   # We do not use Travis python, but list the version that tested
-  - "2.6"
+#  - "2.6"
   - "2.7"
-  - "3.3"
+#  - "3.3"
   - "3.4"
   - "3.5"
   - "3.6"
