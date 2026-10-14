@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SeisCM: Seismic Colormaps"
+type: software
+authors:
+  - family-names: Zhu
+    given-names: Lijun
+    email: gatechzhu@gmail.com
+license: MIT
+repository-code: "https://github.com/lijunzh/SeisCM"
+url: "https://pypi.org/project/SeisCM/"
+keywords: [seismic, geophysics, colormap, matplotlib]

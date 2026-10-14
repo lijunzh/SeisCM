@@ -3,6 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/SeisCM)](https://pypi.org/project/SeisCM/)
 ![License](https://img.shields.io/pypi/l/SeisCM)
 ![Python versions](https://img.shields.io/pypi/pyversions/SeisCM)
+[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![CI/CD](https://github.com/lijunzh/seiscm/actions/workflows/cicd.yml/badge.svg)](https://github.com/lijunzh/seiscm/actions/workflows/cicd.yml)
 
 ## Introduction
@@ -38,7 +39,7 @@ pip install seiscm
 ```bash
 git clone https://github.com/lijunzh/seiscm.git
 cd seiscm
-uv sync --all-extras --dev
+uv sync --dev
 ```
 
 ## Quick Start
@@ -64,9 +65,25 @@ plt.show()
 ```bash
 uv run ruff check src tests   # lint
 uv run ruff format src tests  # format
-uv run pytest                 # test
+uv run mypy                   # type-check
+uv run pytest --cov           # test with coverage
 uv run pre-commit install     # set up git hooks
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and the
+[Code of Conduct](CODE_OF_CONDUCT.md). Security issues: see
+[SECURITY.md](SECURITY.md).
+
+## Citing
+
+A [`CITATION.cff`](CITATION.cff) file is provided; GitHub's
+"Cite this repository" button uses it.
+
+## License
+
+[MIT](LICENSE)
 
 ## Contact
 

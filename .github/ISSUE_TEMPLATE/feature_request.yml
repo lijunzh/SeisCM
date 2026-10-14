@@ -1,0 +1,11 @@
+name: Feature / colormap request
+description: Suggest an improvement or a new colormap
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like to see?
+      description: For a new colormap, include colour stops or a reference.
+    validations:
+      required: true

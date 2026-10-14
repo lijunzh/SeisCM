@@ -74,3 +74,26 @@ class TestFrequency:
 
     def test_name(self):
         assert frequency().name == "Frequency"
+
+
+class TestPackage:
+    """Package-level behaviour."""
+
+    def test_version_is_string(self):
+        import seiscm
+
+        assert isinstance(seiscm.__version__, str)
+
+    def test_all_exports_exist(self):
+        import seiscm
+
+        for name in seiscm.__all__:
+            assert hasattr(seiscm, name)
+
+    @pytest.mark.parametrize("factory", [bwr, seismic, phase, frequency])
+    def test_usable_with_imshow(self, factory):
+        import numpy as np
+
+        fig, ax = plt.subplots()
+        ax.imshow(np.random.default_rng(0).standard_normal((8, 8)), cmap=factory())
+        fig.canvas.draw()
