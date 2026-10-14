@@ -2,14 +2,15 @@
 
 from __future__ import annotations
 
-from typing import TypeAlias
+from collections.abc import Sequence
+from typing import Literal, TypeAlias
 
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
 
-_Segments: TypeAlias = tuple[tuple[float, float, float], ...]
-_CDict: TypeAlias = dict[str, _Segments]
+_Segments: TypeAlias = Sequence[tuple[float, ...]]
+_CDict: TypeAlias = dict[Literal["red", "green", "blue", "alpha"], _Segments]
 
 
 def _make_cmap(name: str, cdict: _CDict) -> LinearSegmentedColormap:
