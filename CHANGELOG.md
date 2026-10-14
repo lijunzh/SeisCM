@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-10-13
+
 ### Added
 - Community files: contributing guide, code of conduct, security policy,
   issue and pull-request templates, `CITATION.cff`.
@@ -18,6 +20,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Removed
 - Obsolete Travis CI configuration.
+
+[Unreleased]: https://github.com/lijunzh/SeisCM/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/lijunzh/SeisCM/compare/v0.1.1...v0.1.2
 
 ## [Earlier releases]
 
