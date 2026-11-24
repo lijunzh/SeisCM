@@ -26,6 +26,23 @@ Pull requests for new colormaps are welcome!
 
 ![Colormap Demo](/fig/colormaps.png?raw=true "Colormaps")
 
+## Project status: maintenance mode
+
+SeisCM is feature-complete, and no new features are planned. It stays
+maintained so that it keeps installing and working. What to expect:
+
+- **Compatibility fixes** ship as patch releases when a new Python, NumPy or
+  Matplotlib version breaks something. CI tests Python 3.10–3.13 on
+  Linux, macOS and Windows.
+- **Dependencies:** SeisCM sets no upper version limits, so NumPy and Matplotlib
+  fixes reach you through your own `pip` or `uv` upgrade, without a new
+  SeisCM release. Dependabot keeps the CI and development tools current.
+- **Bug reports and pull requests** are welcome, including new
+  colormaps. Other new features are unlikely to be merged, and review may
+  be slow.
+
+To report a vulnerability, see [SECURITY.md](SECURITY.md).
+
 ## Installation
 
 ### From PyPI
