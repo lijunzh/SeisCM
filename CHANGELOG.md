@@ -6,7 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-## [0.1.2] - 2026-10-13
+## [0.1.3] - 2026-11-23
+
+First PyPI release since 0.1.1: the 0.1.2 tag made a GitHub release, but its
+PyPI upload failed, so 0.1.3 carries 0.1.2's changes to PyPI.
+
+### Changed
+- CI and release workflows use current versions of the GitHub actions.
+
+## [0.1.2] - 2026-10-13 (GitHub only, not on PyPI)
 
 ### Added
 - Community files: contributing guide, code of conduct, security policy,
@@ -21,7 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Removed
 - Obsolete Travis CI configuration.
 
-[Unreleased]: https://github.com/lijunzh/SeisCM/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/lijunzh/SeisCM/compare/v0.1.3...HEAD
+[0.1.3]: https://github.com/lijunzh/SeisCM/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/lijunzh/SeisCM/compare/v0.1.1...v0.1.2
 
 ## [Earlier releases]
